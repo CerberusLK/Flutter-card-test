@@ -28,13 +28,6 @@ class _QuoteListState extends State<QuoteList> {
         author: "author 2"),
   ];
 
-  //quote Card constructor called into the main
-  Widget quoteTemplate(quote) {
-    return QuoteCard(
-      quote: quote,
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
